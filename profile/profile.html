@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="profileStyle.css" />
+    <script src="profileJs.js"></script>
     <title>시은 프로필</title>
   </head>
   <body>
@@ -11,6 +12,7 @@
       <!-- 상태표시줄 -->
       <div class="header">
         <span style="margin-left: 50px">3:22</span>
+        <div class="blackBar"></div>
         <div>
           <img
             class="headerImg"
@@ -31,7 +33,7 @@
       <!-- 이름 부분 -->
       <div class="top">
         <div>
-          <span>김시은_AI_6기_제발도와조</span>
+          <span style="font-size: 23px">김시은_AI_6기_제발도와조</span>
           <img style="width: 20px" src="../img/profile/down.PNG" />
           <img
             style="width: 10px; margin-bottom: 2px"
@@ -50,24 +52,47 @@
       <!-- 프로필 부분 -->
       <div>
         <div class="profile">
-          <div class="zepImg">
-            <img style="width: 100px" src="../img/zepSieun.png" />
-            <img style="width: 20px" src="../img/profile/blackplus.PNG" />
+          <div class="profileImg">
+            <img class="zepImg" src="../img/zepSieun.png" />
+            <img class="plus" src="../img/profile/blackplus.PNG" />
           </div>
-          <tr>
-            <td>34</td>
-            <td>1K</td>
-            <td>219</td>
-          </tr>
-          <tr>
-            <td>게시물</td>
-            <td>팔로워</td>
-            <td>팔로잉</td>
-          </tr>
+          <table class="statsTable">
+            <tr>
+              <td>34</td>
+              <td>1K</td>
+              <td>219</td>
+            </tr>
+            <tr>
+              <td>게시물</td>
+              <td>팔로워</td>
+              <td>팔로잉</td>
+            </tr>
+          </table>
         </div>
+      </div>
+      <div>
+        <span class="comment">22살 ISTP</span>
+        <span class="comment">노래와 게임을 좋아해요 &#x1F340;</span>
+        <span class="comment">멋있는 개발자가 되는 그날까지... &#x1F44A;</span>
+        <span class="comment" style="margin-top: 20px"><b>번역보기</b></span>
       </div>
     </section>
 
-    <footer></footer>
+    <footer>
+      <!-- 번역보기 아래 부분 -->
+      <div class="profileBoxContent">
+        <div class="profileBox">
+          <span>프로필 편집</span>
+        </div>
+        <div class="profileBox">
+          <span>프로필 공유</span>
+        </div>
+      </div>
+      <div class="footerIcon">
+        <img class="footerImg" src="../img/profile/greed.PNG" />
+        <img class="footerImg" src="../img/profile/movie.PNG" />
+        <img class="footerImg" src="../img/profile/people.PNG" />
+      </div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="profileStyle.css" />
+    <title>상세 프로필</title>
+  </head>
+  <body>
+    <header>
+      <!-- 상태표시줄 -->
+      <div class="header">
+        <span style="margin-left: 50px" id="currentTime"></span>
+        <div class="blackBar"></div>
+        <div>
+          <img
+            class="headerImg"
+            style="margin-bottom: -2px"
+            src="../img/profile/network.PNG"
+          />
+          <img class="headerImg" src="../img/profile/wifi.PNG" />
+          <img
+            class="headerImg"
+            style="margin-bottom: 2px"
+            src="../img/profile/battery.PNG"
+          />
+        </div>
+      </div>
+    </header>
+
+    <section class="main">
+      <!-- 이름 부분 -->
+      <div class="top">
+        <div>
+          <span id="profileName" style="font-size: 23px"></span>
+          <img style="width: 20px" src="../img/profile/down.PNG" />
+          <img
+            style="width: 10px; margin-bottom: 2px"
+            src="../img/profile/red.PNG"
+          />
+        </div>
+        <div>
+          <img class="topImg" src="../img/profile/plus.PNG" />
+          <img
+            class="topImg"
+            style="margin-bottom: 2px"
+            src="../img/profile/3bar.PNG"
+          />
+        </div>
+      </div>
+      <!-- 프로필 부분 -->
+      <div>
+        <div class="profile">
+          <div class="profileImg">
+            <img id="profileImage" class="zepImg" src="../img/zepSieun.png" />
+            <img class="plus" src="../img/profile/blackplus.PNG" />
+          </div>
+          <table class="statsTable">
+            <tr>
+              <td id="postsCount"></td>
+              <td id="followersCount"></td>
+              <td id="followingCount"></td>
+            </tr>
+            <tr>
+              <td>게시물</td>
+              <td>팔로워</td>
+              <td>팔로잉</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="profileComments"></div>
+    </section>
+
+    <footer>
+      <!-- 번역보기 아래 부분 -->
+      <div class="profileBoxContent">
+        <div class="profileBox">
+          <span>프로필 편집</span>
+        </div>
+        <div class="profileBox">
+          <span>프로필 공유</span>
+        </div>
+      </div>
+      <div class="footerIcon">
+        <img class="footerImg" src="../img/profile/greed.PNG" />
+        <img class="footerImg" src="../img/profile/movie.PNG" />
+        <img class="footerImg" src="../img/profile/people.PNG" />
+      </div>
+    </footer>
+    <script src="profileJs.js"></script>
+  </body>
+</html>

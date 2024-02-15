@@ -11,7 +11,11 @@ const profiles = {
     stats: ["34", "1K", "219"],
     comments: [
       "22살 ISTP",
-      "노래와 게임을 좋아해요 🍀",
+      "멜론에 노래를 낼 만큼... 노래를 좋아합니다 💌",
+      "웬만한 게임도 다 하고 좋아해요! (롤, 발로란트, 에이펙스, 레식...)",
+      "편식하지 않고 무슨 음식이든 잘 먹습니다 😎",
+      '제 기술 스택과 자세한 내용은 <a href="https://ssieun.notion.site/275f43cf05084cd485bd1ca295d194eb?pvs=4" target="_blank">여기에</a> 있어요 🐣',
+      "<br>",
       "멋있는 개발자가 되는 그날까지... 👊",
     ],
     time: "3:22",
@@ -68,7 +72,7 @@ function updateProfile(profileKey) {
   profile.comments.forEach((comment) => {
     const span = document.createElement("span");
     span.className = "comment";
-    span.innerText = comment;
+    span.innerHTML = comment;
     commentsContainer.appendChild(span);
   });
 }

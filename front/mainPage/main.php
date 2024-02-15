@@ -18,6 +18,7 @@
     <div class="container">
       <!-- 팀 소개 박스-->
       <div class="teamIntroduction">
+        <div class="tape" id="tapeTeamIntro"></div>
         <div id="teamIntroductionTitle">
           <a style="color: red">T</a><a style="color: orange">E</a
           ><a style="color: yellow">A</a><a style="color: greenyellow">M</a
@@ -46,6 +47,7 @@
 
       <!-- 팀 사진 박스 -->
       <div class="teamMembersPicture">
+        <div class="tape" id="tapeTeamPic"></div>
         <div class="MembersPicture">
           <div class="picContainer">
             <span class="membersName">시은</span>
@@ -81,8 +83,9 @@
 
       <!-- 방명록 입력 박스 -->
       <div class="enterGuestbook">
-        <div style="font-size: x-large; margin-left: 37%">
-          <b>[방명록]</b>
+        <div class="tape" id="tapeEntGuestbook"></div>
+        <div style="font-size: x-large; margin-left: 24%">
+          <b>🖐 [방명록] 🖐</b>
         </div>
         <div class="inputGuestbook" style="margin-top: 15px">
           <form action="../../back/post.php" method="post">
@@ -107,12 +110,14 @@
           </form>
         </div>
         <div style="margin-top: 10px">
+          *ฅ^•ﻌ•^ฅ* <br/>
           소개해조 팀에게 응원메세지 또는 하고 싶은 말을 적어주세요!
         </div>
       </div>
 
       <!-- 방명록 출력 박스 -->
       <div class="printGuestbook" style="overflow: auto">
+        <div class="tape" id="tapePrintGuestbook"></div>
         <?php
           include_once("../../back/test.php");
         ?>

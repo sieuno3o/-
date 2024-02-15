@@ -3,63 +3,58 @@
   background-color: #C0E7EE;
 }
 .container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: space-around;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-.teamIntroduction {
-  margin: 30px;
+.teamIntroduction {  
   background-size: 15px 15px;
   background-color: white;
   background-image:
       linear-gradient(to right, #e9e9e9 1px, transparent 1px),
       linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
-
-  height: 400px;
-  width: 400px;
+  margin:50px;
+  height: 375px;
+  width: 375px;
   transform: rotate(-5deg);
   border: 1px solid #e9e9e9;
   box-shadow: -3px 3px rgb(187, 187, 187);
 }
-.teamMembersPicture {
-  margin: 30px;
+.teamMembersPicture {  
   background-size: 15px 15px;
   background-color: white;
   background-image:
       linear-gradient(to right, #e9e9e9 1px, transparent 1px),
       linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
-
-  height: 400px;
-  width: 400px;
+  margin:50px;
+  height: 375px;
+  width: 375px;
   transform: rotate(3deg);
   border: 1px solid #e9e9e9;
   box-shadow: -3px 3px rgb(187, 187, 187);
 }
-.enterGuestbook {
-  margin: 30px;
+.enterGuestbook {  
   background-size: 15px 15px;
   background-color: white;
   background-image:
       linear-gradient(to right, #e9e9e9 1px, transparent 1px),
       linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
-
-  height: 380px;
-  width: 380px;
+  margin:50px;
+  height: 360px;
+  width: 360px;
   transform: rotate(4deg);
   border: 1px solid #e9e9e9;
   box-shadow: -3px 3px rgb(187, 187, 187);
 }
-.printGuestbook {
-  margin: 30px;
+.printGuestbook {  
   background-size: 15px 15px;
   background-color: white;
   background-image:
       linear-gradient(to right, #e9e9e9 1px, transparent 1px),
       linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
-
+  margin:50px;
   height: 380px;
   width: 360px;
   transform: rotate(-4deg);

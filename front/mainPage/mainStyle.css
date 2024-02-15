@@ -1,6 +1,17 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "GmarketSansMedium";
+}
 
 .background {
-  background-color: #C0E7EE;
+  background-color: #c0e7ee;
 }
 .container {
   display: flex;
@@ -14,9 +25,8 @@
   margin: 30px;
   background-size: 15px 15px;
   background-color: white;
-  background-image:
-      linear-gradient(to right, #e9e9e9 1px, transparent 1px),
-      linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
+  background-image: linear-gradient(to right, #e9e9e9 1px, transparent 1px),
+    linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
 
   height: 400px;
   width: 400px;
@@ -28,9 +38,8 @@
   margin: 30px;
   background-size: 15px 15px;
   background-color: white;
-  background-image:
-      linear-gradient(to right, #e9e9e9 1px, transparent 1px),
-      linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
+  background-image: linear-gradient(to right, #e9e9e9 1px, transparent 1px),
+    linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
 
   height: 400px;
   width: 400px;
@@ -42,9 +51,8 @@
   margin: 30px;
   background-size: 15px 15px;
   background-color: white;
-  background-image:
-      linear-gradient(to right, #e9e9e9 1px, transparent 1px),
-      linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
+  background-image: linear-gradient(to right, #e9e9e9 1px, transparent 1px),
+    linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
 
   height: 380px;
   width: 380px;
@@ -56,9 +64,8 @@
   margin: 30px;
   background-size: 15px 15px;
   background-color: white;
-  background-image:
-      linear-gradient(to right, #e9e9e9 1px, transparent 1px),
-      linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
+  background-image: linear-gradient(to right, #e9e9e9 1px, transparent 1px),
+    linear-gradient(to bottom, #e9e9e9 1px, transparent 1px);
 
   height: 380px;
   width: 360px;
@@ -74,11 +81,18 @@
   width: 120px;
   overflow: hidden;
 }
-#sieunPic {
+#profilePic {
   max-height: auto;
   max-width: 120px;
-  margin-top: -35%;
 }
 .inputGuestbook {
   background-color: rgb(206, 206, 206);
+}
+
+.teamMembersPicture {
+  display: block;
+}
+
+.MembersPicture {
+  display: flex;
 }

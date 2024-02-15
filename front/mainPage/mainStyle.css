@@ -156,6 +156,9 @@
 .MembersPicture {
   padding: 5px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -10px;
 }
 
 .picContainer button {
@@ -168,4 +171,26 @@
 .clickThat {
   margin-top: -5px;
   margin-left: 50px;
+}
+
+#sieunContainer {
+  transform: rotate(-6deg);
+  margin-top: 20px;
+}
+
+#jonghyunContainer {
+  transform: rotate(6deg);
+  margin-top: 30px;
+  margin-left: -3px;
+}
+
+#yeeunContainer {
+  transform: rotate(3deg);
+  margin-top: -15px;
+}
+
+#hyosangContainer {
+  transform: rotate(-6deg);
+  margin-top: -7px;
+  margin-left: -3px;
 }

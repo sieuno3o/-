@@ -49,13 +49,13 @@
       <div class="teamMembersPicture">
         <div class="tape" id="tapeTeamPic"></div>
         <div class="MembersPicture">
-          <div class="picContainer">
+          <div class="picContainer" id="sieunContainer">
             <span class="membersName">시은</span>
             <button data-profile="sieun" onclick="openProfile('sieun')">
               <img class="profilePic" src="../img/Sieun.png" />
             </button>
           </div>
-          <div class="picContainer">
+          <div class="picContainer" id="jonghyunContainer">
             <span class="membersName">종현</span>
             <button data-profile="Jonghyun" onclick="openProfile('Jonghyun')">
               <img class="profilePic" src="../img/Jonghyun.png" />
@@ -63,13 +63,13 @@
           </div>
         </div>
         <div style="margin-top: -15px" class="MembersPicture">
-          <div class="picContainer">
+          <div class="picContainer" id="yeeunContainer">
             <span class="membersName">예은</span>
             <button data-profile="yeeun" onclick="openProfile('yeeun')">
               <img class="profilePic" src="../img/Yeeun.jpg" />
             </button>
           </div>
-          <div class="picContainer">
+          <div class="picContainer" id="hyosangContainer">
             <span class="membersName">효상</span>
             <button data-profile="Hyosang" onclick="openProfile('Hyosang')">
               <img class="profilePic" src="../img/Hyosang.png" />

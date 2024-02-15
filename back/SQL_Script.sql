@@ -8,7 +8,7 @@ use 1st_project;
 create table member_info(id int(2), name varchar(100), mbti varchar(100));
 
 #팀원별 방명록 테이블 생성
-create table register(id int(10),  visitor_name varchar(100), comment varchar(100));
+create table register(id int not null auto_increment,  visitor_name varchar(100), comment varchar(100), primary key(id));
 
 #마리아db 한글세팅 조회
 SELECT schema_name, default_character_set_name FROM information_schema.schemata;
@@ -28,3 +28,7 @@ insert into member_info values (4, '지효상', 'ENTP');
 
 #방명록 샘플 입력
 insert into register values (1, '아무개', '잘보고갑니다 화이팅');
+insert into register values (2, '홍길동', '굿잡!');
+insert into register values (3, '1', '2');
+
+select * from register;

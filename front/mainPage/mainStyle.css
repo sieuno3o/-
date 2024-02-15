@@ -78,6 +78,33 @@
   box-shadow: -3px 3px rgb(187, 187, 187);
 }
 
+.tape {
+  background-color: #cf9692;
+  opacity: 0.4;
+  position: absolute;
+  order: 2;
+  left:32%;
+  top: -30px;
+  width: 130px;
+  height: 45px;
+}
+
+#tapeTeamIntro {
+  transform: rotate(2deg);
+}
+
+#tapeTeamPic {
+  transform: rotate(-4deg);
+}
+
+#tapeEntGuestbook {
+  transform: rotate(4deg);
+}
+
+#tapePrintGuestbook {
+  transform: rotate(-3deg);
+}
+
 #teamIntroductionTitle {
   font-weight: 999;
   font-size: larger;

@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Pretendard-Regular";
+  font-size: large;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid;
+  border-radius: 30px;
+  padding: 3% 5%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerImg {
+  width: 30px;
+}
+
+.blackBar {
+  background-color: black;
+  width: 250px;
+  height: 47px;
+  border-radius: 30px;
+}
+
+.main {
+  margin-top: 5px;
+}
+
+.top {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topImg {
+  width: 30px;
+  margin-right: 30px;
+}
+
+.statsTable {
+  margin-right: -30px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+td {
+  padding-right: 70px;
+  text-align: center;
+}
+
+.zepImg {
+  position: relative;
+  width: 110px;
+  display: block;
+}
+
+.plus {
+  width: 20px;
+  position: absolute;
+  display: block;
+  margin-left: 80px;
+  margin-top: -30px;
+  width: 30px;
+}
+
+.comment {
+  display: block;
+  padding-top: 3px;
+}
+
+.profileBoxContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileBox {
+  margin-top: 60px;
+  padding: 20px 115px;
+  border-radius: 25px;
+  background-color: rgb(238, 238, 238);
+}
+
+.footerIcon {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerImg {
+  width: 40px;
+  padding: 0 80px;
+}
